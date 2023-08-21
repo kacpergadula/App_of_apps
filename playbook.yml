@@ -29,7 +29,6 @@
       copy:
         src: "{{ compose_path }}"
         dest: "{{ deployment_path }}"
- 
     - name: Run `docker-compose up`
       become: true
       docker_compose:
