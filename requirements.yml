@@ -1,7 +1,6 @@
 ---
 collections:
-  - name: jinja2
-    version: "<3.0"  # Wersja jinja2 poniżej 3.0
+  - name: ansible.builtin
 roles:
   - name: geerlingguy.docker
     version: 4.1.3
