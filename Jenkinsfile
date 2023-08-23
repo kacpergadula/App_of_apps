@@ -3,7 +3,7 @@ def backendImage="kacpergadula/backend"
 def backendDockerTag=""
 def frontendDockerTag=""
 def dockerRegistry=""
-def registryCredentials="cb69d108-e28b-440c-a6fb-8aa52d0bcc3f"
+def registryCredentials="DockerHub"
 
 pipeline {
   agent {
